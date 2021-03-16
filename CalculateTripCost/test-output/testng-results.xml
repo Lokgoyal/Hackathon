@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="56177" started-at="2021-03-16T07:02:25Z" finished-at="2021-03-16T07:03:21Z">
+    <groups>
+      <group name="smoke">
+        <method signature="SmokeTest.applySpecificFilters()[pri:3, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="applySpecificFilters" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.main(java.util.Hashtable)[pri:0, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="main" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.openCruise()[pri:5, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="openCruise" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.openHomePage()[pri:1, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="openHomePage" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.printCruiseDetail()[pri:7, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="printCruiseDetail" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.printHolidayHomeDetails()[pri:4, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="printHolidayHomeDetails" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.searchForPlace()[pri:2, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="searchForPlace" class="com.RuntimeTerror.tests.SmokeTest"/>
+        <method signature="SmokeTest.searchRespectiveCruise()[pri:6, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="searchRespectiveCruise" class="com.RuntimeTerror.tests.SmokeTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="SmokeTesting" duration-ms="56177" started-at="2021-03-16T07:02:25Z" finished-at="2021-03-16T07:03:21Z">
+      <class name="com.RuntimeTerror.tests.SmokeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="setup" is-config="true" duration-ms="1940" started-at="2021-03-16T12:32:23Z" finished-at="2021-03-16T12:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="main(java.util.Hashtable)[pri:0, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="main" duration-ms="3" started-at="2021-03-16T12:32:25Z" data-provider="ExcelData" finished-at="2021-03-16T12:32:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Cruise Line=AIDA, Check Option=Elevator/Lift access, No. of Homes=3, Place Name=Nairobi, No. of Days=5, Menu=Amenities, Ship=AIDAblu, Sort By=Traveller Rating, No. of Guests=4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="openHomePage()[pri:1, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="openHomePage" duration-ms="3726" started-at="2021-03-16T12:32:25Z" finished-at="2021-03-16T12:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="searchForPlace()[pri:2, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="searchForPlace" duration-ms="25613" started-at="2021-03-16T12:32:29Z" finished-at="2021-03-16T12:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForPlace -->
+        <test-method status="PASS" signature="applySpecificFilters()[pri:3, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="applySpecificFilters" duration-ms="3685" started-at="2021-03-16T12:32:54Z" finished-at="2021-03-16T12:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applySpecificFilters -->
+        <test-method status="PASS" signature="printHolidayHomeDetails()[pri:4, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="printHolidayHomeDetails" duration-ms="9480" started-at="2021-03-16T12:32:58Z" finished-at="2021-03-16T12:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHolidayHomeDetails -->
+        <test-method status="PASS" signature="openCruise()[pri:5, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="openCruise" duration-ms="5893" started-at="2021-03-16T12:33:07Z" finished-at="2021-03-16T12:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCruise -->
+        <test-method status="PASS" signature="searchRespectiveCruise()[pri:6, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="searchRespectiveCruise" duration-ms="4678" started-at="2021-03-16T12:33:13Z" finished-at="2021-03-16T12:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRespectiveCruise -->
+        <test-method status="PASS" signature="printCruiseDetail()[pri:7, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="printCruiseDetail" duration-ms="3019" started-at="2021-03-16T12:33:18Z" finished-at="2021-03-16T12:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCruiseDetail -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.RuntimeTerror.tests.SmokeTest@517cd4b]" name="closeSetup" is-config="true" duration-ms="994" started-at="2021-03-16T12:33:21Z" finished-at="2021-03-16T12:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+      </class> <!-- com.RuntimeTerror.tests.SmokeTest -->
+    </test> <!-- SmokeTesting -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

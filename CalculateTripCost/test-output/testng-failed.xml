@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]" parallel="none">
+  <test name="SmokeTesting">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.RuntimeTerror.tests.SmokeTest"/>
+    </classes>
+  </test> <!-- SmokeTesting -->
+</suite> <!-- Failed suite [SmokeSuite] -->
